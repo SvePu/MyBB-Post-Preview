@@ -17,7 +17,7 @@ var post_preview = {
 		*/
 
 		// fetch url: tid => `https://example.com/showthread.php?tid=${tid}`
-		fetch_url: tid => `https://community.mybb.com/thread-${tid}.html`,
+		fetch_url: tid => 'https://community.mybb.com/thread-${tid}.html',
 
 		preview_class: "post_preview", // Class name for the container of the post preview.
 
